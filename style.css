@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIjtI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/play/v17/6ae84K2oVqwItm4TOpc.ttf) format('truetype');
+}
+#game {
+  font-family: 'Play', sans-serif;
+}
+#game #info {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+#game #info #now_go {
+  font-size: 26px;
+}
+#game #info #now_go .count {
+  font-weight: bold;
+}
+#game #info .player_info {
+  margin: 10px 0;
+  border-top: 1px solid #b29c85;
+  border-bottom: 1px solid #b29c85;
+  padding: 20px 0;
+}
+#game #info .player_info .title {
+  font-size: 20px;
+}
+#game #game_body {
+  background-color: #b29c85;
+  padding: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#game #game_body .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#game #game_body .col .point {
+  width: 60px;
+  height: 60px;
+  background-color: #d9cfc4;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #d9cfc4;
+}
+#game #game_body .col .point.p_1 {
+  background-color: #fe5335;
+  border-color: #fe9481;
+}
+#game #game_body .col .point.p_2 {
+  background-color: #316e73;
+  border-color: #48a1a9;
+}
