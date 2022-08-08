@@ -21,60 +21,60 @@
     </div>
     <div id="game_body">
         <div class="col">
-            <div class="point" data-x="1" data-y="1"></div>
-            <div class="point" data-x="2" data-y="1"></div>
-            <div class="point" data-x="3" data-y="1"></div>
-            <div class="point" data-x="4" data-y="1"></div>
-            <div class="point" data-x="5" data-y="1"></div>
-            <div class="point" data-x="6" data-y="1"></div>
+            <div class="point" data-y="1" data-x="1"></div>
+            <div class="point" data-y="2" data-x="1"></div>
+            <div class="point" data-y="3" data-x="1"></div>
+            <div class="point" data-y="4" data-x="1"></div>
+            <div class="point" data-y="5" data-x="1"></div>
+            <div class="point" data-y="6" data-x="1"></div>
         </div>
         <div class="col">
-            <div class="point" data-x="1" data-y="2"></div>
-            <div class="point" data-x="2" data-y="2"></div>
-            <div class="point" data-x="3" data-y="2"></div>
-            <div class="point" data-x="4" data-y="2"></div>
-            <div class="point" data-x="5" data-y="2"></div>
-            <div class="point" data-x="6" data-y="2"></div>
+            <div class="point" data-y="1" data-x="2"></div>
+            <div class="point" data-y="2" data-x="2"></div>
+            <div class="point" data-y="3" data-x="2"></div>
+            <div class="point" data-y="4" data-x="2"></div>
+            <div class="point" data-y="5" data-x="2"></div>
+            <div class="point" data-y="6" data-x="2"></div>
         </div>
         <div class="col">
-            <div class="point" data-x="1" data-y="3"></div>
-            <div class="point" data-x="2" data-y="3"></div>
-            <div class="point" data-x="3" data-y="3"></div>
-            <div class="point" data-x="4" data-y="3"></div>
-            <div class="point" data-x="5" data-y="3"></div>
-            <div class="point" data-x="6" data-y="3"></div>
+            <div class="point" data-y="1" data-x="3"></div>
+            <div class="point" data-y="2" data-x="3"></div>
+            <div class="point" data-y="3" data-x="3"></div>
+            <div class="point" data-y="4" data-x="3"></div>
+            <div class="point" data-y="5" data-x="3"></div>
+            <div class="point" data-y="6" data-x="3"></div>
         </div>
         <div class="col">
-            <div class="point" data-x="1" data-y="4"></div>
-            <div class="point" data-x="2" data-y="4"></div>
-            <div class="point" data-x="3" data-y="4"></div>
-            <div class="point" data-x="4" data-y="4"></div>
-            <div class="point" data-x="5" data-y="4"></div>
-            <div class="point" data-x="6" data-y="4"></div>
+            <div class="point" data-y="1" data-x="4"></div>
+            <div class="point" data-y="2" data-x="4"></div>
+            <div class="point" data-y="3" data-x="4"></div>
+            <div class="point" data-y="4" data-x="4"></div>
+            <div class="point" data-y="5" data-x="4"></div>
+            <div class="point" data-y="6" data-x="4"></div>
         </div>
         <div class="col">
-            <div class="point" data-x="1" data-y="5"></div>
-            <div class="point" data-x="2" data-y="5"></div>
-            <div class="point" data-x="3" data-y="5"></div>
-            <div class="point" data-x="4" data-y="5"></div>
-            <div class="point" data-x="5" data-y="5"></div>
-            <div class="point" data-x="6" data-y="5"></div>
+            <div class="point" data-y="1" data-x="5"></div>
+            <div class="point" data-y="2" data-x="5"></div>
+            <div class="point" data-y="3" data-x="5"></div>
+            <div class="point" data-y="4" data-x="5"></div>
+            <div class="point" data-y="5" data-x="5"></div>
+            <div class="point" data-y="6" data-x="5"></div>
         </div>
         <div class="col">
-            <div class="point" data-x="1" data-y="6"></div>
-            <div class="point" data-x="2" data-y="6"></div>
-            <div class="point" data-x="3" data-y="6"></div>
-            <div class="point" data-x="4" data-y="6"></div>
-            <div class="point" data-x="5" data-y="6"></div>
-            <div class="point" data-x="6" data-y="6"></div>
+            <div class="point" data-y="1" data-x="6"></div>
+            <div class="point" data-y="2" data-x="6"></div>
+            <div class="point" data-y="3" data-x="6"></div>
+            <div class="point" data-y="4" data-x="6"></div>
+            <div class="point" data-y="5" data-x="6"></div>
+            <div class="point" data-y="6" data-x="6"></div>
         </div>
         <div class="col">
-            <div class="point" data-x="1" data-y="7"></div>
-            <div class="point" data-x="2" data-y="7"></div>
-            <div class="point" data-x="3" data-y="7"></div>
-            <div class="point" data-x="4" data-y="7"></div>
-            <div class="point" data-x="5" data-y="7"></div>
-            <div class="point" data-x="6" data-y="7"></div>
+            <div class="point" data-y="1" data-x="7"></div>
+            <div class="point" data-y="2" data-x="7"></div>
+            <div class="point" data-y="3" data-x="7"></div>
+            <div class="point" data-y="4" data-x="7"></div>
+            <div class="point" data-y="5" data-x="7"></div>
+            <div class="point" data-y="6" data-x="7"></div>
         </div>
     </div>
 </div>
