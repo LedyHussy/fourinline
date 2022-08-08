@@ -12,9 +12,7 @@ $('#game #game_body .point').click(function () {
         $(this).addClass('active');
         $player_count = 'p_'+$player;
         $(this).addClass($player_count);
-        //получение координат
-        $x = $(this).data('x');
-        $y = $(this).data('y');
+        $count = 0;
 
         //Добавление хода
         $player_counts = Number($('#info #' + $player_count + ' .go_count .count').text()) + 1;
@@ -31,6 +29,11 @@ $('#game #game_body .point').click(function () {
         }
 
         //Проверка на победу
+        //получение координат
+        $x = $(this).data('x');
+        $y = $(this).data('y');
+            //проверка горизонтали
+            //получение предъидущего круга
 
     }
     else{
