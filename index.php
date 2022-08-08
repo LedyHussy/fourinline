@@ -78,6 +78,11 @@
         </div>
     </div>
 </div>
+<div id="start">
+    <p class="title">Добро пожаловать в игру 4 в ряд</p>
+    <p class="text">Ваша задача - собрать ряд из 4 фишек на игровом поле! </p>
+    <p class="btn btn_start">Начать игру</p>
+</div>
 <script src="game.js"></script>
 </body>
 </html>
