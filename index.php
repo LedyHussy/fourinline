@@ -83,6 +83,12 @@
     <p class="text">Ваша задача - собрать ряд из 4 фишек на игровом поле! </p>
     <p class="btn btn_start">Начать игру</p>
 </div>
+<div id="win">
+    <p class="title">Выигрышь! </p>
+    <p class="text">Победил игрок № <span id="win_player"></span> </p>
+    <p class="text">За <span id="win_count"></span> ходов</p>
+    <p class="btn btn_start">Начать игру сначала</p>
+</div>
 <script src="game.js"></script>
 </body>
 </html>
