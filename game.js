@@ -29,12 +29,50 @@ $('#game #game_body .point').click(function () {
         }
 
         //Проверка на победу
+        //установка счёта
+        $point = 1;
         //получение координат
         $x = $(this).data('x');
         $y = $(this).data('y');
             //проверка горизонтали
             //получение предъидущего круга
+        if ($x != 1){
+            $x_pref = $x - 1;
+            if ($('[data-x='+$x_pref+'][data-y='+$y+']').hasClass($player_count)){
+                $point += 1;
+                console.log("check" + $x_pref+"  point:" + $point);
+                if ($point < 4){
+                    if ($x_pref != 1){
+                        $x_pref -= 1;
+                        if ($('[data-x='+$x_pref+'][data-y='+$y+']').hasClass($player_count)){
+                            $point += 1;
+                            console.log("check" + $x_pref+"  point:" + $point);
+                        }
+                        if ($x_pref != 1){
+                            $x_pref -= 1;
+                            if ($('[data-x='+$x_pref+'][data-y='+$y+']').hasClass($player_count)){
+                                $point += 1;
+                                console.log("check" + $x_pref+"  point:" + $point);
+                            }
+                        }
+                    }
+                    else{
 
+                    }
+
+                }
+                else{
+                    //win
+                }
+            }
+            else{
+                console.log('no')
+            }
+
+        }
+        else{
+            console.log('one')
+        }
     }
     else{
         console.log('has active class')
