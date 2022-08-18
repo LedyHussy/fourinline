@@ -86,8 +86,7 @@
 <div id="win">
     <div class="wrapp">
         <p class="title">Выигрышь! </p>
-        <p class="text">Победил игрок № <span id="win_player"></span> </p>
-        <p class="text">За <span id="win_count"></span> ходов</p>
+        <p class="text">Победил игрок № <span id="win_player"></span>. За <span id="win_count"></span> ходов</p>
         <p class="btn btn_start">Начать игру сначала</p>
     </div>
 
