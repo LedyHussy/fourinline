@@ -20,61 +20,61 @@
         </div>
     </div>
     <div id="game_body">
-        <div class="col">
-            <div class="point" data-y="1" data-x="1"></div>
-            <div class="point" data-y="2" data-x="1"></div>
-            <div class="point" data-y="3" data-x="1"></div>
-            <div class="point" data-y="4" data-x="1"></div>
-            <div class="point" data-y="5" data-x="1"></div>
-            <div class="point" data-y="6" data-x="1"></div>
+        <div class="col" data-x="1">
+            <div class="point" data-y="6"></div>
+            <div class="point" data-y="5"></div>
+            <div class="point" data-y="4"></div>
+            <div class="point" data-y="3"></div>
+            <div class="point" data-y="2"></div>
+            <div class="point active p_2" data-y="1"></div>
         </div>
-        <div class="col">
-            <div class="point" data-y="1" data-x="2"></div>
-            <div class="point" data-y="2" data-x="2"></div>
-            <div class="point" data-y="3" data-x="2"></div>
-            <div class="point" data-y="4" data-x="2"></div>
-            <div class="point" data-y="5" data-x="2"></div>
-            <div class="point" data-y="6" data-x="2"></div>
+        <div class="col" data-x="2">
+            <div class="point" data-y="6"></div>
+            <div class="point" data-y="5"></div>
+            <div class="point" data-y="4"></div>
+            <div class="point" data-y="3"></div>
+            <div class="point active p_2" data-y="2"></div>
+            <div class="point active p_2" data-y="1"></div>
         </div>
-        <div class="col">
-            <div class="point" data-y="1" data-x="3"></div>
-            <div class="point" data-y="2" data-x="3"></div>
-            <div class="point" data-y="3" data-x="3"></div>
-            <div class="point" data-y="4" data-x="3"></div>
-            <div class="point" data-y="5" data-x="3"></div>
-            <div class="point" data-y="6" data-x="3"></div>
+        <div class="col" data-x="3">
+            <div class="point" data-y="6"></div>
+            <div class="point" data-y="5"></div>
+            <div class="point" data-y="4"></div>
+            <div class="point active p_2" data-y="3"></div>
+            <div class="point active p_2" data-y="2"></div>
+            <div class="point active p_2" data-y="1"></div>
         </div>
-        <div class="col">
-            <div class="point" data-y="1" data-x="4"></div>
-            <div class="point" data-y="2" data-x="4"></div>
-            <div class="point" data-y="3" data-x="4"></div>
-            <div class="point" data-y="4" data-x="4"></div>
-            <div class="point" data-y="5" data-x="4"></div>
-            <div class="point" data-y="6" data-x="4"></div>
+        <div class="col" data-x="4">
+            <div class="point" data-y="6"></div>
+            <div class="point" data-y="5"></div>
+            <div class="point active p_2" data-y="4"></div>
+            <div class="point active p_2" data-y="3"></div>
+            <div class="point active p_2" data-y="2"></div>
+            <div class="point active p_2" data-y="1"></div>
         </div>
-        <div class="col">
-            <div class="point" data-y="1" data-x="5"></div>
-            <div class="point" data-y="2" data-x="5"></div>
-            <div class="point" data-y="3" data-x="5"></div>
-            <div class="point" data-y="4" data-x="5"></div>
-            <div class="point" data-y="5" data-x="5"></div>
-            <div class="point" data-y="6" data-x="5"></div>
+        <div class="col" data-x="5">
+            <div class="point" data-y="6"></div>
+            <div class="point active p_2" data-y="5"></div>
+            <div class="point active p_2" data-y="4"></div>
+            <div class="point active p_2" data-y="3"></div>
+            <div class="point active p_2" data-y="2"></div>
+            <div class="point active p_2" data-y="1"></div>
         </div>
-        <div class="col">
-            <div class="point" data-y="1" data-x="6"></div>
-            <div class="point" data-y="2" data-x="6"></div>
-            <div class="point" data-y="3" data-x="6"></div>
-            <div class="point" data-y="4" data-x="6"></div>
-            <div class="point" data-y="5" data-x="6"></div>
-            <div class="point" data-y="6" data-x="6"></div>
+        <div class="col" data-x="6">
+            <div class="point" data-y="6"></div>
+            <div class="point" data-y="5"></div>
+            <div class="point" data-y="4"></div>
+            <div class="point" data-y="3"></div>
+            <div class="point" data-y="2"></div>
+            <div class="point" data-y="1"></div>
         </div>
-        <div class="col">
-            <div class="point" data-y="1" data-x="7"></div>
-            <div class="point" data-y="2" data-x="7"></div>
-            <div class="point" data-y="3" data-x="7"></div>
-            <div class="point" data-y="4" data-x="7"></div>
-            <div class="point" data-y="5" data-x="7"></div>
-            <div class="point" data-y="6" data-x="7"></div>
+        <div class="col" data-x="7">
+            <div class="point" data-y="6"></div>
+            <div class="point" data-y="5"></div>
+            <div class="point" data-y="4"></div>
+            <div class="point" data-y="3"></div>
+            <div class="point" data-y="2"></div>
+            <div class="point" data-y="1"></div>
         </div>
     </div>
 </div>
@@ -88,6 +88,12 @@
         <p class="title">Выигрышь! </p>
         <p class="text">Победил игрок № <span id="win_player"></span>. За <span id="win_count"></span> ходов</p>
         <p class="btn btn_start">Начать игру сначала</p>
+    </div>
+</div>
+<div id="col_fin">
+    <div class="wrapp">
+        <p class="text">Колонна уже занята! выберите другую!</p>
+        <p id="col_fin_ok" class="btn btn_start">Ок</p>
     </div>
 
 </div>

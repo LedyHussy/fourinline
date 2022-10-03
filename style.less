@@ -38,6 +38,12 @@
     .col{
       display: flex;
       flex-direction: column;
+      transition: all ease-in-out 0.3s;
+      &:hover{
+        .point{
+          background-color: #c5ad92;
+        }
+      }
       .point{
         width: 60px;
         height: 60px;
@@ -45,15 +51,17 @@
         margin: 5px;
         border-radius: 50%;
         border: 2px solid lighten(@grey, 20%);
+        transition: all ease-in-out 0.3s;
         &.p_1{
-          background-color: @red;
+          background-color: @red !important;
           border-color: lighten(@red, 15%);
         }
         &.p_2{
-          background-color: @blue;
+          background-color: @blue !important;
           border-color: lighten(@blue, 15%)
         }
       }
+
     }
   }
 }
@@ -96,7 +104,7 @@
     color: lightcyan;
   }
 }
-#win{
+#win, #col_fin{
   position: absolute;
   top: 0;
   left: 0;
